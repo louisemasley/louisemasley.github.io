@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Page Title</title>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
 </head>
 <body>
 	<h1>Recette boeuf aux oignons de Louise Maslé</h1>
@@ -32,3 +34,15 @@
 
 		<img src="boeufoignons.jpg"
 		alt="Boeuf aux oignons">
+
+<p> <br> </p>
+ <span id="clock"></span>
+ <script type="text/javascript">
+  // 15 days from now!
+  var date = new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
+  $('#clock').countdown(date, function(event) {
+    $(this).html(event.strftime('%D days %H:%M:%S'));
+  });
+</script>
+ </ul>
+</body>
