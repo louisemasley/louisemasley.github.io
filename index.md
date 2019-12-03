@@ -23,7 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url)https://www.zara.com/fr/fr/femme-robes-l1066.html?v1=1281625 and ![Image](src)
+[Link](url)
+[https://www.zara.com/fr/fr/femme-robes-l1066.html?v1=1281625] and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
