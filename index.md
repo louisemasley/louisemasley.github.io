@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link] and ![Image](src)
 ```
 
-(https://www.zara.com/fr/fr/femme-robes-l1066.html?v1=1281625)
+[Zara Robes](https://www.zara.com/fr/fr/femme-robes-l1066.html?v1=1281625)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
